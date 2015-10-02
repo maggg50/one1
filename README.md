@@ -1,7 +1,10 @@
 yum -y update
 yum install wget 
+
 - >wget 설치가 되어있지 않은 경우에 실행
- systemctl stop firewalld  
+ 
+systemctl stop firewalld  
+
 ->방화벽 해제가 필요한 경우에 실행
 
 
